@@ -11,16 +11,20 @@ const CategoryIcons = {
       <path d="M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21ZM20 11H4V19H20V11ZM20 5H4V9H20V5ZM11 6V8H9V6H11ZM7 6V8H5V6H7Z"></path>
     </svg>
   ),
-  "Mobile Development": (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="w-6 h-6 text-[var(--sec)] opacity-70"
-    >
-      <path d="M7 4V20H17V4H7ZM6 2H18C18.5523 2 19 2.44772 19 3V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V3C5 2.44772 5.44772 2 6 2ZM12 17C12.5523 17 13 17.4477 13 18C13 18.5523 12.5523 19 12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17Z"></path>
-    </svg>
-  ),
+  "WordPress Design & Development": (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="w-6 h-6 text-[var(--sec)] opacity-70"
+  >
+    <path d="M12 0C5.371 0 0 5.371 0 12c0 6.627 5.371 12 12 12s12-5.373 12-12c0-6.629-5.371-12-12-12zm0 1.846a10.154 10.154 0 0110.154 10.154A10.154 10.154 0 0112 22.154 10.154 10.154 0 011.846 12 10.154 10.154 0 0112 1.846zm5.646 13.928c.293.908.488 1.573.642 2.158-1.552 1.395-3.572 2.167-5.788 2.167-2.15 0-4.113-.716-5.671-1.919.373-.607.96-1.625 1.514-2.786.194-.404.384-.83.568-1.268l1.903 5.225 2.178-6.524-1.66-4.508-.26-.007h-.12c-.157 0-.324-.005-.51-.009-.038-.002-.076-.005-.112-.005-.051 0-.1.002-.147.004l2.524 6.906 2.496-6.964c.3.005.586.014.852.027zm-4.002-4.454l.02-.054c.016-.046.033-.093.053-.138.148-.36.321-.702.51-1.019a7.54 7.54 0 00-.567-.045c-.213 0-.421.017-.622.046l.606 1.21zm1.598 1.037l-.743 2.04 1.246 3.523c.215-.492.434-1.008.643-1.536a33.89 33.89 0 00.788-2.255c-.54-.662-1.184-1.244-1.934-1.772z" />
+  </svg>
+),
+
+
+
+
   "UI/UX Design & Prototyping": (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +46,14 @@ const SkillsList = () => {
       "Landing pages and business websites",
       "Portfolio websites",
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "WordPress Design & Development": [
+      "Custom WordPress themes & templates",
+      "Responsive, SEO-friendly websites",
+      "WooCommerce store integration",
+      "Advanced plugin configuration",
+      "Performance & security optimization",
     ],
+
     "UI/UX Design & Prototyping": [
       "UI design with Figma & Canva",
       "UX research & improvements",
